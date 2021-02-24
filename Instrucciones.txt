@@ -1,0 +1,30 @@
+He instalado python de microsoft store
+he instalado heroku de la página oficial, mediante un instalador para windows
+
+python3 -m venv web_app
+
+web_app\Scripts\activate.bat
+
+(web_app) C:\Users\jdani\Documents\GitHub>cd deploying_web_app\web_app
+
+(web_app) C:\Users\jdani\Documents\GitHub\deploying_web_app\web_app>heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/df44ad0f-9ca2-4a73-9bba-7460926784fa?requestor=SFMyNTY.g2gDbQAAAAw3OC4zMC4yNi4xNzRuBgDcy6XVdwFiAAFRgA.HU2yaxlqJ_9ybyLtAZ-aXOQF7Y4qZqK0Rq0KAvbvaak
+Logging in... done
+Logged in as jdanielperez@outlook.es
+
+pip install flask pandas plotly gunicorn numpy
+
+pip freeze > requirements.txt
+
+crear documento de texto Procfile sin extensión .txt(ojo a que esté oculta)
+
+git add .
+
+git commit -m "first commit"
+
+heroku create webapp94
+
+git remote -v
+
+git push heroku master
