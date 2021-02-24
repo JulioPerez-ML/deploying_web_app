@@ -1,0 +1,3 @@
+[submodule "webapp94"]
+	path = webapp94
+	url = https://git.heroku.com/webapp94.git
