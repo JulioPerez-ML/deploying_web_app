@@ -28,3 +28,5 @@ heroku create webapp94
 git remote -v
 
 git push heroku master
+
+para copiar el repositorio: https://git.heroku.com/webapp94.git
